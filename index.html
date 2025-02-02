@@ -133,23 +133,24 @@
             const container = document.getElementById('roles-container');
             container.innerHTML = '';
         
-            Object.keys(data).forEach(category => {
-                const categoryTitle = document.createElement('h2');
-                categoryTitle.textContent = category;
-                categoryTitle.style.color = 'white';
-                categoryTitle.style.textAlign = 'center';
-                container.appendChild(categoryTitle);
+            // Loop through each group in the JSON
+            for (const group in data) {
+                // Create a group header for each group
+                const groupHeader = document.createElement('h2');
+                groupHeader.textContent = group;
+                container.appendChild(groupHeader);
         
-                data[category].forEach((role, index) => {
+                // Loop through the roles in each group
+                data[group].forEach((role, index) => {
                     const card = document.createElement('div');
                     card.classList.add('role-card');
-                    card.textContent = `${role.role}: ${role.player}`;
+                    card.textContent = `${role.role} - ${role.player}`;
                     container.appendChild(card);
                     setTimeout(() => card.classList.add('show'), index * 150);
                 });
-            });
+            }
         }
-        
+
         loadRoles();
     </script>
 </body>
