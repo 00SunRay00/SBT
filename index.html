@@ -128,18 +128,28 @@
     </div>
     <script>
         async function loadRoles() {
-            const response = await fetch('https://raw.githubusercontent.com/00SunRay00/SbtRules/refs/heads/main/roles.json');
-            const roles = await response.json();
+            const response = await fetch('roles.json');
+            const data = await response.json();
             const container = document.getElementById('roles-container');
             container.innerHTML = '';
-            roles.forEach((role, index) => {
-                const card = document.createElement('div');
-                card.classList.add('role-card');
-                card.textContent = role.name;
-                container.appendChild(card);
-                setTimeout(() => card.classList.add('show'), index * 150);
+        
+            Object.keys(data).forEach(category => {
+                const categoryTitle = document.createElement('h2');
+                categoryTitle.textContent = category;
+                categoryTitle.style.color = 'white';
+                categoryTitle.style.textAlign = 'center';
+                container.appendChild(categoryTitle);
+        
+                data[category].forEach((role, index) => {
+                    const card = document.createElement('div');
+                    card.classList.add('role-card');
+                    card.textContent = `${role.role}: ${role.player}`;
+                    container.appendChild(card);
+                    setTimeout(() => card.classList.add('show'), index * 150);
+                });
             });
         }
+        
         loadRoles();
     </script>
 </body>
