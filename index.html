@@ -133,14 +133,11 @@
             const container = document.getElementById('roles-container');
             container.innerHTML = '';
         
-            // Loop through each group in the JSON
             for (const group in data) {
-                // Create a group header for each group
                 const groupHeader = document.createElement('h2');
                 groupHeader.textContent = group;
                 container.appendChild(groupHeader);
         
-                // Loop through the roles in each group
                 data[group].forEach((role, index) => {
                     const card = document.createElement('div');
                     card.classList.add('role-card');
