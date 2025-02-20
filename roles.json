@@ -1,41 +1,38 @@
 {
-  "Бравл таун": [
+  "БравлТаун": [
     { "role": "МЕР Барли", "player": "Shagow666" },
     { "role": "Аид", "player": "SkyCrystall" },
-    { "role": "Диномайк", "player": "ReAl1060" },
-    { "role": "Мистер пи", "player": "KuberSpNh" },
+    { "role": "Диномайк", "player": "никто" },
+    { "role": "Мистер пи", "player": "ilas" },
     { "role": "Мортис", "player": "никто" },
-    { "role": "Джесси", "player": "Dinomike3055" },
+    { "role": "Джесси", "player": "никто" },
     { "role": "Беа", "player": "никто" },
-    { "role": "Бо", "player": "LeanDrop8116810" },
+    { "role": "Бо", "player": "никто" },
     { "role": "Ворон", "player": "shadow12312301" },
     { "role": "Кратос", "player": "Sellbronchik" },
-    { "role": "Эль примо", "player": "GonFriks443" },
-    { "role": "Рико", "player": "SpykiXB" },
-    { "role": "Мажор рико", "player": "PWG0000d" },
+    { "role": "Эль примо", "player": "никто" },
+    { "role": "Рико", "player": "никто" },
+    { "role": "Мажор рико", "player": "LeonDrop" },
     { "role": "Леон", "player": "MrFay1529" },
     { "role": "Спайк", "player": "sampOnline" },
     { "role": "Булл", "player": "Debard" },
-    { "role": "Ронон", "player": "Theakhmad12345" },
-    { "role": "Макс", "player": "CreepeR2201216" },
+    { "role": "Ронон", "player": "Pwg0000d" },
+    { "role": "Макс", "player": "KuberSpNh" },
     { "role": "Джин", "player": "KING0BROH" },
-    { "role": "Лисандра Эмз", "player": "Заброн." },
+    { "role": "Лисандра Эмз", "player": "никто" },
     { "role": "Каллиопа Джесси", "player": "никто" }
   ],
   "Гравитрон": [
     { "role": "МЕР Вирусный 8-бит", "player": "Drex" },
     { "role": "Мехус", "player": "FoggySiren038" },
-    { "role": "Ворон меха", "player": "Star" },
-    { "role": "Попкорн рико", "player": "yuppitop1gg" },
+    { "role": "Ворон меха", "player": "Aid4008" },
+    { "role": "Попкорн рико", "player": "Star" },
     { "role": "Ночная ведьма мортис", "player": "Baybicman" },
     { "role": "Диджей Фрэнк", "player": "CriminalZOZA" },
     { "role": "Пэм", "player": "Kalash2811" },
-    { "role": "Стритрейсер Брок", "player": "ButerBrod1222" }
+    { "role": "Стритрейсер Брок", "player": "Burger" }
   ],
-  "Олимп": [
-    { "role": "Ворон феникс", "player": "Selbronchik" },
-    { "role": "Посейдон бо", "player": "Msalslsl" },
-    { "role": "Афродита Пайпер", "player": "SunRay" },
-    { "role": "Гефест", "player": "MobelLight" }
+  "РичТаун": [
+    { "role": "МЕР Грифф", "player": "Theakhmad12345" }
   ]
 }
